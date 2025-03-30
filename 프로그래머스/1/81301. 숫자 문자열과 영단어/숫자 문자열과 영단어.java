@@ -6,7 +6,7 @@ class Solution {
         
         for(int i=0; i<numbers.length; i++){
             if(s.contains(numbers[i])){
-                s = s.replace(numbers[i], String.valueOf(i));
+                s = s.replaceAll(numbers[i], String.valueOf(i));
             }
         }
         
